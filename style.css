@@ -1,0 +1,490 @@
+/*Dettagli pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*informazioni generali del body*/
+
+body{
+    margin: auto;
+    height: auto;
+    width: 1400px;
+    background-color: white;
+}
+
+/*SEZIONE HEADER*/
+
+header {
+    background-color: #0d325a;
+    background-size: cover;
+}
+
+/*menu in alto*/
+
+.menualto {
+    height: 100px;
+    width: 1400px;
+    margin: auto;
+    padding: 20px 86px;
+}
+
+#iconahome {
+    float: left;
+    padding-top: 4px;
+    padding-right: 10px;
+}
+
+#menu {
+    float: left;
+    padding-top: 21px;
+    padding-left: 10px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#inputmenu {
+    float: right;
+    padding-top: 21px;
+}
+
+ #inputmenu ul li {
+     display: inline-block;
+ }
+
+ #inputmenu ul li a {
+     color: white;
+     text-decoration: none;
+     padding: 5px;
+ }
+
+ #linkgrigio a{
+     font-size: 12px;
+ }
+
+ #linklogin a{
+     font-size: 14px;
+ }
+
+ #linkverdeheaderi {
+     font-size: 14px;
+ }
+
+/*menu in basso*/
+
+.menubasso {
+    background-image: url(immagini/businessmen.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 1400px;
+    margin: auto;
+}
+
+#menubasso {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 800px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: white;
+    padding-top: 80px;
+}
+
+#linkverdemolti a {
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background-color: darkgreen;
+    border: 15px solid darkgreen;
+    border-radius: 5px;
+}
+
+#linkverdemolti {
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+/*INIZIO MAIN */
+/*titolo generale di inizio*/
+
+.titolocontenuto {
+    background-color: gray;
+}
+
+.titolocontenuto h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.titolocontenuto p {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+/*Prima riga di elemento*/
+
+.primoelemento {
+    height: 400px;
+    background-color: lightgreen;
+}
+
+/*elemento a sinistra*/
+
+#primoelementoleft {
+    width: 426px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#primoelementoleft img {
+    height: 160px;
+    display: block;
+    padding: 20px 150px;
+}
+
+#primoelementoleft div:last-child p{
+    padding: 15px 20px;
+    color: white;
+}
+
+#primoelementoleft div:last-child h4{
+    font-size:28px;
+    color: Gray;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#primoelementoleft div:last-child {
+    height: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#primoelementoleft div:last-child hr{
+    color: gray;
+    width: 100px;
+    margin: 10px 150px;
+}
+
+/*elemento centro*/
+
+#primoelementocenter {
+    width: 427px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#primoelementocenter img{
+    height: 160px;
+    display: block;
+    padding: 20px 150px;
+}
+
+#primoelementocenter div:last-child h4 {
+    font-size:28px;
+    color: Gray;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#primoelementocenter div:last-child hr {
+    color: gray;
+    width: 100px;
+    margin: 10px 150px;
+}
+
+#primoelementocenter div:last-child  {
+    height: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#primoelementocenter div:last-child p {
+    padding: 15px 20px;
+    color: white;
+}
+
+/*elemento destra*/
+
+#primoelementoright {
+    width: 426px;
+    height: 400px;
+    float: left;
+    margin-right:  20px;
+    margin-left:  20px;
+}
+
+#primoelementoright img {
+    height: 160px;
+    display: block;
+    padding: 20px 150px;
+}
+
+#primoelementoright div:last-child h4 {
+    font-size:28px;
+    color: Gray;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#primoelementoright div:last-child hr {
+    color: gray;
+    width: 100px;
+    margin: 10px 150px;
+}
+
+#primoelementoright div:last-child {
+    height: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#primoelementoright div:last-child p{
+    padding: 15px 20px;
+    color: white;
+}
+
+ .secondoelemento {
+     height: 350px;
+     background-color: white;
+     position: relative;
+     border-top: 1px solid gray;
+ }
+
+/*Secondo riga di elemento*/
+/*elemento sinistra*/
+
+#secondoelementoleft {
+    height: 350px;
+    width: 550px;
+    float: left;
+    margin-left: 95px;
+}
+
+#secondoelementoleft img {
+    height: 350px;
+    padding: 20px 110px;
+}
+
+/*elemento destra*/
+
+#secondoelementoright {
+    height: 350px;
+    width: 550px;
+    float: right;
+    margin-right: 95px;
+    position: relative;
+}
+
+#secondoelementoright h4 {
+    padding-top: 100px;
+    font-size: 35px;
+    color: gray;
+    padding-left: 30px;
+}
+
+#secondoelementoright p {
+    padding-left: 30px;
+    font-size: 17px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#secondoelementoright a{
+    color: green;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+/*Terza riga di elemento*/
+
+.terzoelemento {
+    height: 100px;
+    background-color: black;
+    width: 1400px;
+}
+
+.terzoelemento div h4 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.terzoelemento div:last-child p {
+    display: inline;
+    color: white;
+    font-size: 20px;
+    padding-right: 80px;
+}
+
+.terzoelemento div:last-child  {
+    padding-left: 500px;
+}
+
+.terzoelemento div:last-child  select{
+    opacity: 0;
+    padding-right: 20px;
+}
+
+.terzoelemento div:last-child  a{
+    padding-left: 80px;
+}
+
+.terzoelemento div:last-child  select:hover {
+    opacity: 1;
+}
+
+/*Quarta riga di elemento*/
+
+.quartoelemento {
+    height: 400px;
+    width: 1400px;
+    background-color: #0d325a;
+}
+
+#quartoelementoleft {
+    width: 600px;
+    height: 350px;
+    float: left;
+}
+
+.quartoelemento div h4{
+       padding-top: 90px;
+       padding-left: 70px;
+       font-size: 25px;
+}
+
+.quartoelemento div span {
+    color: yellow;
+}
+
+.quartoelemento div p:first-child {
+    font-size: 18px;
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.quartoelemento div p:last-child {
+    font-size: 18px;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.quartoelemento a{
+    color: white;
+    text-decoration: none;
+    padding-left: 70px;
+}
+
+#quartoelementoleftimg {
+    float: left;
+}
+
+#quartoelementoleftimg img{
+    height: 350px;
+}
+
+/*FINE MAIN*/
+/*FOOTER*/
+
+footer{
+    width: 1400px;
+}
+
+/*Footer sinistra*/
+
+#footerleft {
+    float: left;
+    margin-bottom: 50px;
+    width: 600px;
+}
+
+#footerleft h5{
+    padding-top: 20px;
+    padding-left: 60px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+#footerleft div ul {
+    list-style-type: none;
+}
+
+#footerleft div ul li{
+    padding-left: 60px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#footerleft div ul li:last-child{
+    padding-left: 60px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/*Footer destra*/
+
+#footerright {
+    float: right;
+    width: 600px;
+}
+
+#footerright h5{
+    text-align: right;
+    padding-top: 60px;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+#footerright h6{
+    font-size: 16px;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+#footerright p:first-child{
+    font-size: 16px;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 40px;
+}
+
+#footerright p:nth-child(2){
+    font-size: 16px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 40px;
+}
+
+#footerright p:last-child{
+    font-size: 16px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 40px;
+}
