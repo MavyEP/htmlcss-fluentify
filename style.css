@@ -8,26 +8,32 @@
 /*informazioni generali del body*/
 
 body{
-    margin: auto;
-    height: auto;
-    width: 1400px;
+    font-family: 'Roboto', sans-serif;
     background-color: white;
 }
 
 /*SEZIONE HEADER*/
 
 header {
+    margin: auto;
     background-color: #0d325a;
-    background-size: cover;
 }
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+
+ main{
+     position: relative;
+ }
 
 /*menu in alto*/
 
 .menualto {
-    height: 100px;
-    width: 1400px;
     margin: auto;
-    padding: 20px 86px;
+    padding: 20px 70px;
+    margin-bottom:80px;
 }
 
 #iconahome {
@@ -39,7 +45,7 @@ header {
 #menu {
     float: left;
     padding-top: 21px;
-    padding-left: 10px;
+    padding-left: 50px;
 }
 
 header ul {
@@ -64,24 +70,37 @@ header ul {
 
  #inputmenu ul li {
      display: inline-block;
- }
+}
 
- #inputmenu ul li a {
+ #inputmenu ul li  a {
      color: white;
      text-decoration: none;
-     padding: 5px;
+     padding: 5px 20px;;
  }
 
- #linkgrigio a{
+ #inputmenu ul li  a:last-child{
+     color: white;
+     text-decoration: none;
+     padding: 10px 20px;;
+     margin-left: 20px;
+ }
+
+ #linkgrigio {
      font-size: 12px;
  }
 
- #linklogin a{
-     font-size: 14px;
+ #linklogin  {
+     font-size: 12px;
+     border: 1px solid grey;
+     border-radius: 5px;
+     padding-top: 100px;
  }
 
- #linkverdeheaderi {
-     font-size: 14px;
+ #linkverdeheader {
+     background-color: #7fb802;
+     border: 1px solid #7fb802;
+     border-radius: 5px;
+     font-size: 12px;
  }
 
 /*menu in basso*/
@@ -91,40 +110,36 @@ header ul {
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 1400px;
-    margin: auto;
 }
 
 #menubasso {
-    margin-top: 20px;
     margin-left: 70px;
     margin-right: 800px;
-    margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 35px;
     color: white;
-    padding-top: 80px;
+    padding-top: 30px;
 }
 
 #linkverdemolti a {
     font-size: 14px;
     text-decoration: none;
     color: white;
-    background-color: darkgreen;
-    border: 15px solid darkgreen;
+    background-color: #7fb802;
+    border: 15px solid #7fb802;
     border-radius: 5px;
 }
 
 #linkverdemolti {
     padding-left: 70px;
-    padding-top: 30px;
+margin-top: 50px;
+    padding-bottom: 100px;
 }
 
 /*INIZIO MAIN */
 /*titolo generale di inizio*/
 
 .titolocontenuto {
-    background-color: gray;
+    background-color: #f9f9f9;
 }
 
 .titolocontenuto h1 {
@@ -142,33 +157,34 @@ header ul {
 
 .primoelemento {
     height: 400px;
-    background-color: lightgreen;
+    background-color: white;
+    margin-bottom: 50px;
 }
 
 /*elemento a sinistra*/
 
 #primoelementoleft {
-    width: 426px;
-    height: 400px;
+    width: 31%;
     float: left;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 #primoelementoleft img {
-    height: 160px;
+    height: 180px;
     display: block;
     padding: 20px 150px;
 }
 
 #primoelementoleft div:last-child p{
     padding: 15px 20px;
-    color: white;
+    color:gray;
+    text-align: center;
 }
 
 #primoelementoleft div:last-child h4{
-    font-size:28px;
-    color: Gray;
+    font-size:23px;
+    color: #7fb802;
     padding: 5px 20px;
     text-align: center;
 }
@@ -181,37 +197,40 @@ header ul {
 
 #primoelementoleft div:last-child hr{
     color: gray;
-    width: 100px;
-    margin: 10px 150px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 43%;
+    margin-bottom: 10px;
 }
 
 /*elemento centro*/
 
 #primoelementocenter {
-    width: 427px;
-    height: 400px;
+    width: 31%;
     float: left;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 #primoelementocenter img{
-    height: 160px;
+    height: 180px;
     display: block;
-    padding: 20px 150px;
+    padding: 20px 130px;
 }
 
 #primoelementocenter div:last-child h4 {
-    font-size:28px;
-    color: Gray;
+    font-size:23px;
+    color: #7fb802;
     padding: 5px 20px;
     text-align: center;
 }
 
 #primoelementocenter div:last-child hr {
     color: gray;
-    width: 100px;
-    margin: 10px 150px;
+    width: 60px;
+    margin-top: 40px;
+    margin-left: 43%;
+    margin-bottom: 10px;
 }
 
 #primoelementocenter div:last-child  {
@@ -222,36 +241,37 @@ header ul {
 
 #primoelementocenter div:last-child p {
     padding: 15px 20px;
-    color: white;
+    color: gray;
+    text-align: center;
 }
 
 /*elemento destra*/
 
 #primoelementoright {
-    width: 426px;
-    height: 400px;
+    width: 31%;
     float: left;
-    margin-right:  20px;
-    margin-left:  20px;
+    margin: auto;
 }
 
 #primoelementoright img {
-    height: 160px;
+    height: 180px;
     display: block;
-    padding: 20px 150px;
+    padding: 20px 130px;
 }
 
 #primoelementoright div:last-child h4 {
-    font-size:28px;
-    color: Gray;
+    font-size:23px;
+    color: #7fb802;
     padding: 5px 20px;
     text-align: center;
 }
 
 #primoelementoright div:last-child hr {
     color: gray;
-    width: 100px;
-    margin: 10px 150px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 43%;
+    margin-bottom: 10px;
 }
 
 #primoelementoright div:last-child {
@@ -262,229 +282,298 @@ header ul {
 
 #primoelementoright div:last-child p{
     padding: 15px 20px;
-    color: white;
+    color: gray;
+    text-align: center;
 }
 
  .secondoelemento {
-     height: 350px;
+     height: 400px;
      background-color: white;
      position: relative;
-     border-top: 1px solid gray;
+     margin-bottom: 40px;
  }
 
+#divisore {
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
 /*Secondo riga di elemento*/
 /*elemento sinistra*/
 
 #secondoelementoleft {
-    height: 350px;
-    width: 550px;
-    float: left;
-    margin-left: 95px;
+    height: 400px;
+   width: 50%;
+   float:left;
 }
 
 #secondoelementoleft img {
-    height: 350px;
-    padding: 20px 110px;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-bottom: 50px;
 }
 
 /*elemento destra*/
 
 #secondoelementoright {
-    height: 350px;
-    width: 550px;
-    float: right;
-    margin-right: 95px;
-    position: relative;
+     height: 400px;
+    width: 50%;
+    float:right;
 }
 
 #secondoelementoright h4 {
     padding-top: 100px;
-    font-size: 35px;
-    color: gray;
+    font-size: 25px;
+    color: black;
     padding-left: 30px;
 }
 
 #secondoelementoright p {
     padding-left: 30px;
     font-size: 17px;
-    color: black;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 50px;
 }
 
 #secondoelementoright a{
-    color: green;
-    text-decoration: none;
+    color: lightblue;
     padding-left: 30px;
 }
 
 /*Terza riga di elemento*/
 
 .terzoelemento {
-    height: 100px;
-    background-color: black;
-    width: 1400px;
+    background-color: #f9f9f9;
+    background-size: cover;
 }
 
-.terzoelemento div h4 {
-    text-align: center;
+.terzoelemento::after{
+      content: "";
+      display: table;
+      clear: both;
+}
+
+#terzoelementoleft {
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+#terzoelementoleft h4 {
+    font-size: 30px;
+    color: black;
+}
+
+#terzoelementoright{
+    float: right;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#terzoelementoright h4 {
+    display: inline-block;
     font-size: 25px;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.terzoelemento div:last-child p {
-    display: inline;
-    color: white;
-    font-size: 20px;
-    padding-right: 80px;
-}
-
-.terzoelemento div:last-child  {
-    padding-left: 500px;
-}
-
-.terzoelemento div:last-child  select{
-    opacity: 0;
+    color: gray;
     padding-right: 20px;
 }
 
-.terzoelemento div:last-child  a{
-    padding-left: 80px;
+#terzoelementoright p {
+    display: inline-block;
+    font-size: 20px;
+    color: gray;
+    border-bottom: 2px solid grey;
+    padding-bottom: 3px;
+    margin-right: 50px;
 }
 
-.terzoelemento div:last-child  select:hover {
-    opacity: 1;
+#terzoelementoright a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #7fb802;
+    border: 15px solid #7fb802;
+    border-radius: 5px;
 }
 
 /*Quarta riga di elemento*/
 
 .quartoelemento {
-    height: 400px;
-    width: 1400px;
     background-color: #0d325a;
 }
 
+.quartoelemento::after{
+    content: "" ;
+    display: table;
+    clear: both;
+}
+
 #quartoelementoleft {
-    width: 600px;
-    height: 350px;
+    width: 40%;
     float: left;
+    height: 354px;
+    margin-bottom:45px;
 }
 
-.quartoelemento div h4{
-       padding-top: 90px;
-       padding-left: 70px;
-       font-size: 25px;
+#quartoelementoleft div h4{
+  padding-left: 150px;
+  color: white;
+  font-size: 23px;
+  padding-top: 100px;
 }
 
-.quartoelemento div span {
-    color: yellow;
+#quartoelementoleft  span {
+    color: orange;
 }
 
-.quartoelemento div p:first-child {
-    font-size: 18px;
-    padding-left: 70px;
+#quartoelementoleft  p:first-child {
+    padding-left: 150px;
+    padding-top: 15px;
+    color: lightgrey;
+    font-size: 16px;
+    padding-right: 100px;
+}
+
+#quartoelementoleft  p:last-child {
+    padding-left: 150px;
     padding-top: 20px;
-}
-
-.quartoelemento div p:last-child {
-    font-size: 18px;
-    padding-left: 70px;
-    padding-top: 20px;
+    color: lightgrey;
+    font-size: 16px;
     padding-bottom: 20px;
+    padding-right: 100px;
 }
 
-.quartoelemento a{
-    color: white;
-    text-decoration: none;
-    padding-left: 70px;
+#quartoelementoleft a{
+    color: lightblue;
+    padding-left: 150px;
 }
 
-#quartoelementoleftimg {
-    float: left;
+#quartoelementorightimg {
+     float: left;
+    width: 60%;
 }
 
-#quartoelementoleftimg img{
+#quartoelementorightimg img{
+    padding-right: 500px;
+    margin-right: 200px;
     height: 350px;
 }
 
 /*FINE MAIN*/
 /*FOOTER*/
+/*Footer sinistra*/
 
-footer{
-    width: 1400px;
+footer {
+    background-color: #17406b
 }
 
-/*Footer sinistra*/
+footer hr {
+    color: white;
+    width: 100%;
+}
+
+footer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 #footerleft {
     float: left;
-    margin-bottom: 50px;
-    width: 600px;
+     height: 300px;
+    width: 50%;
 }
 
 #footerleft h5{
-    padding-top: 20px;
-    padding-left: 60px;
-    font-size: 15px;
-    padding-bottom: 20px;
+   color: white;
+   padding-top: 30px;
+   padding-left: 140px;
 }
 
 #footerleft div ul {
-    list-style-type: none;
+   list-style-type: none;
 }
 
 #footerleft div ul li{
-    padding-left: 60px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+   padding-left: 140px;
+   padding-top: 12px;
 }
 
-#footerleft div ul li:last-child{
-    padding-left: 60px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+#footerleft div ul li a{
+ color: lightblue;
 }
 
 /*Footer destra*/
 
 #footerright {
     float: right;
-    width: 600px;
+    width: 50%;
+    height: 300px;
+    text-align: right;
 }
 
 #footerright h5{
-    text-align: right;
-    padding-top: 60px;
-    padding-right: 40px;
-    font-size: 20px;
+      font-size: 20px;
+      padding-top: 40px;
+      padding-right: 100px;
+      color: lightblue;
 }
 
 #footerright h6{
-    font-size: 16px;
-    text-align: right;
-    padding-top: 30px;
-    padding-right: 40px;
+     padding-right: 100px;
+     padding-top: 20px;
+     font-size: 18px;
+     color: lightblue;
 }
 
 #footerright p:first-child{
-    font-size: 16px;
-    text-align: right;
-    padding-top: 30px;
-    padding-right: 40px;
+     padding-right: 100px;
+     padding-top: 50px;
+     font-size: 18px;
+     color: lightblue;
 }
 
 #footerright p:nth-child(2){
-    font-size: 16px;
-    text-align: right;
-    padding-top: 5px;
-    padding-right: 40px;
+       padding-right: 100px;
+       font-size: 18px;
+       color: lightblue;
+
 }
 
 #footerright p:last-child{
-    font-size: 16px;
-    text-align: right;
-    padding-top: 5px;
-    padding-right: 40px;
+ padding-right: 100px;
+ color: lightblue;
+}
+
+#help {
+    position: fixed;
+    z-index: 9999999;
+    bottom: 0%;
+    right: 10%;
+    padding-bottom: 5px;
+}
+
+#help a{
+    color: white;
+    background-color: #7fb802;
+    border: 8px solid #7fb802;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+#help a:hover{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
 }
